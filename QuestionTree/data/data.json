@@ -1,0 +1,85 @@
+[
+  {
+    "id": 0,
+    "content": "Do you prefer fruits or vegetables?",
+    "answers": [
+      { "label": "Fruits", "nextQuestionId": 1 },
+      { "label": "Vegetables", "nextQuestionId": 2 }
+    ]
+  },
+  {
+    "id": 1,
+    "content": "What animal do you love?",
+    "answers": [
+      { "label": "Dog", "nextQuestionId": 4 },
+      { "label": "Cat", "nextQuestionId": 5 }
+    ]
+  },
+  {
+    "id": 2,
+    "content": "Do you love fish?",
+    "answers": [
+      { "label": "Yes", "nextQuestionId": 3 },
+      { "label": "No", "nextQuestionId": 6 }
+    ]
+  },
+  {
+    "id": 3,
+    "content": "What color do you like?",
+    "answers": [
+      { "label": "Red", "nextQuestionId": 7 },
+      { "label": "Yellow", "nextQuestionId": 8 }
+    ]
+  },
+  {
+    "id": 4,
+    "content": "What subject do you like",
+    "answers": [
+      { "label": "Fruits", "nextQuestionId": 9 },
+      { "label": "Fruits", "nextQuestionId": 12 }
+    ]
+  },
+  {
+    "id": 5,
+    "content": "Is 1 + 1 = 2?",
+    "answers": []
+  },
+  {
+    "id": 6,
+    "content": "Do you love music?",
+    "answers": [
+      { "label": "Yes", "nextQuestionId": 10 },
+      { "label": "No", "nextQuestionId": 11 }
+    ]
+  },
+  {
+    "id": 7,
+    "content": "What sport do you prefer?",
+    "answers": []
+  },
+  {
+    "id": 8,
+    "content": "Is 2 + 2 = 4?",
+    "answers": []
+  },
+  {
+    "id": 9,
+    "content": "Is 3 + 3 = 7?",
+    "answers": []
+  },
+  {
+    "id": 10,
+    "content": "How many laptops do you have?",
+    "answers": []
+  },
+  {
+    "id": 11,
+    "content": "How old are you?",
+    "answers": []
+  },
+  {
+    "id": 12,
+    "content": "Is 4^2 = 16?",
+    "answers": []
+  }
+]

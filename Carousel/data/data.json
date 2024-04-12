@@ -1,0 +1,26 @@
+[
+  {
+    "src": "./assets/img1.jpeg",
+    "caption": "Caption 1"
+  },
+  {
+    "src": "./assets/img2.jpeg",
+    "caption": "Caption 2"
+  },
+  {
+    "src": "./assets/img3.jpeg",
+    "caption": "Caption 3"
+  },
+  {
+    "src": "./assets/img1.jpeg",
+    "caption": "Caption 4"
+  },
+  {
+    "src": "./assets/img2.jpeg",
+    "caption": "Caption 5"
+  },
+  {
+    "src": "./assets/img3.jpeg",
+    "caption": "Caption 6"
+  }
+]
