@@ -1,0 +1,129 @@
+[
+   {
+    "id": 1,
+    "type": "choose",
+    "text": "Do you prefer fruits or vegetables?",
+    "options": [
+      { "label": "Fruits", "nextQuestionId": 2 },
+      { "label": "Vegetables", "nextQuestionId": 3 }
+    ],
+    "backup": [
+      {
+        "type": "choose",
+        "text": "What's smartphone do you love?",
+        "options": [
+          { "label": "Samsung", "nextQuestionId": 3 },
+          { "label": "IPhone", "nextQuestionId": 5 },
+          { "label": "Xiaomi", "nextQuestionId": 7}
+        ]
+       },
+       {
+        "type": "choose",
+        "text": "What kind of music do you like?",
+        "options": [
+          { "label": "Rock", "nextQuestionId": 2 },
+          { "label": "Acoustic", "nextQuestionId": 5 }
+        ]
+       },
+       {
+        "type": "textinput",
+        "text": "What song do you like best?",
+        "nextQuestionId": 3
+       }
+    ]
+   },
+   {
+    "id": 2,
+    "type": "choose",
+    "text": "What animal do you love?",
+    "options": [
+      { "label": "Dog", "nextQuestionId": 4 },
+      { "label": "Cat", "nextQuestionId": 5 },
+      { "label": "Horse", "nextQuestionId": null}
+    ]
+   },
+   {
+    "id": 3,
+    "type": "choose",
+    "text": "Do you love fish?",
+    "options": [
+      { "label": "Yes", "nextQuestionId": 10 },
+      { "label": "No", "nextQuestionId": 6 }
+    ],
+    "backup": [
+       {
+        "type": "choose",
+        "text": "What kind of music do you like?",
+        "options": [
+          { "label": "Rock", "nextQuestionId": 2 },
+          { "label": "Acoustic", "nextQuestionId": 5 }
+        ]
+       },
+       {
+        "type": "textinput",
+        "text": "What song do you like best?",
+        "nextQuestionId": 3
+       }
+    ]
+   },
+   {
+    "id": 4,
+    "type": "choose",
+    "text": "What color do you like?",
+    "options": [
+      { "label": "Red", "nextQuestionId": 7 },
+      { "label": "Yellow", "nextQuestionId": null }
+    ]
+   },
+   {
+    "id": 5,
+    "type": "choose",
+    "text": "What subject do you like",
+    "options": [
+      { "label": "Fruits", "nextQuestionId": 8 },
+      { "label": "Vegetables", "nextQuestionId": 9 }
+    ]
+   },
+   {
+    "id": 6,
+    "type": "choose",
+    "text": "Do you prefer fruits or vegetables?",
+    "options": [
+      { "label": "Fruits", "nextQuestionId": null },
+      { "label": "Vegetables", "nextQuestionId": null }
+    ]
+   },
+   {
+    "id": 7,
+    "type": "choose",
+    "text": "Do you prefer fruits or vegetables?",
+    "options": [
+      { "label": "Fruits", "nextQuestionId": null },
+      { "label": "Vegetables", "nextQuestionId": null }
+    ]
+   },
+   {
+    "id": 8,
+    "type": "choose",
+    "text": "Do you prefer fruits or vegetables?",
+    "options": [
+      { "label": "Fruits", "nextQuestionId": null },
+      { "label": "Vegetables", "nextQuestionId": null }
+    ]
+   },
+   {
+    "id": 9,
+    "type": "choose",
+    "text": "Do you prefer fruits or vegetables?",
+    "options": [
+      { "label": "Fruits", "nextQuestionId": null },
+      { "label": "Vegetables", "nextQuestionId": null }
+    ]
+   },
+   {
+    "id": 10,
+    "type": "textinput",
+    "text": "What is your gender?",
+    "nextQuestionId": null
+   }
+]

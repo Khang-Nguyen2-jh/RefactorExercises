@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: aliceblue;
+    margin: auto;
+    width: 60vw;
+    margin-top: 0;
+    padding: 10vh 10vw;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 2vh;
+    color: black;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 2vh;
+    color: black;
+}
+
+.question-container {
+    margin-top: 5vh;
+}
+
+[id^="question-answer"] {
+    display: flex;
+    flex-flow: row wrap;
+}
+[id^="question-answer"] > button {
+    margin-right: 1vw;
+    min-width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: cornsilk;
+    transition: all 0.5s;
+}
+
+[id^="question-answer"] > button:hover {
+    background-color: rgb(255, 242, 190);
+}
+
+.question-title {
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+}
+
+.question-title button {
+    margin-right: 1vw;
+    min-width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(223, 255, 194);
+    transition: all 0.5s;
+}
+
+.question-title button:hover {
+    margin-right: 1vw;
+    min-width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(197, 255, 142);
+    transition: all 0.5s;
+}
+
+.question-title h2 {
+    margin: 0;
+}
+
+textarea {
+    margin-right: 1vw;
+    border: none;
+    border-radius: 20px;
+    background-color: cornsilk;
+    transition: all 0.5s;
+    padding: 20px;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+input:focus {
+    background-color: rgb(255, 242, 190);
+}
+

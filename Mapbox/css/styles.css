@@ -1,0 +1,106 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+}
+
+h1, h3{
+    font-size: 30px;
+    font-weight: 200;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    color: black;
+}
+
+h3 {
+    font-size:25px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #bbb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.left-section {
+    width: 30vw;
+    background-color: azure;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.top-left-section {
+    height: 50vh;
+    padding: 1vh 1vw;
+}
+
+.top-left-section h1 {
+    text-align: center;
+    padding: 2vh 2vw;
+    font-weight: 500;
+}
+
+.suggest-locations {
+    z-index: 1;
+    margin-top: 1vh;
+    border-radius: 10px;
+    box-shadow: -5px -5px 5px #eee;
+    background-color: #fff;
+}
+.suggest-location {
+    padding: 1vh 1vw; 
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.suggest-location:hover {
+    background-color: #ccc;
+}
+.right-section {
+    width: 70vw;
+    background-color: #dfdfdf;
+}
+
+#searchString {
+    width: 28vw;
+    height: 50px;
+    border: 1px solid rgb(117, 117, 203);
+    font-size: 14px;
+    font-weight: 200;
+    font-family: "Open Sans", sans-serif;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bottom-left-section {
+    padding: 1vh 1vw;
+}
+
+.addressInfo {
+    padding: 20px;
+    border-radius: 20px ;
+    background-color: #fff;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 1024px){
+
+}
